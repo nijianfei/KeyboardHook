@@ -1,0 +1,140 @@
+# 忽略操作系统生成的文件
+*.suo
+*.sln
+*.user
+*.vspscc
+*.vssscc
+*.db
+*.sdf
+*.opensdf
+*.un~
+*.pch
+*.ncb
+*.tlb
+*.tlh
+*.bak
+*.tmp
+*.ilk
+*.pdb
+*.exp
+*.lib
+*.ii
+*.ipch
+*.aps
+*.pch
+*.idb
+*.pdb
+*.tlog
+*.log
+*.lastbuildstate
+*.ipch
+*.sdf
+*.opensdf
+*.user
+*.suo
+*.sln.DotSettings.user
+ 
+# 忽略编译生成的文件和目录
+build/
+Debug/
+Release/
+x64/
+x86/
+out/
+bin/
+obj/
+libs/
+ 
+# 忽略 IDE 配置文件
+.vscode/
+.idea/
+*.iml
+*.iws
+.csproj.user
+ 
+# 忽略依赖管理工具生成的文件和目录
+.dependencies/
+packages/
+vendor/
+node_modules/
+ 
+# 忽略临时文件
+*.tmp
+*.swp
+*.swo
+ 
+# 忽略编译器的中间文件
+*.o
+*.d
+*.lo
+*.mo
+*.so
+*.a
+*.out
+ 
+# 忽略测试报告和覆盖率文件
+*.gcda
+*.gcno
+coverage/
+ 
+# 忽略其他常见临时文件
+Thumbs.db
+Desktop.ini
+.DS_Store
+ 
+# 忽略编译器的特定文件（例如，CMake 生成的文件）
+CMakeCache.txt
+cmake_install.cmake
+CMakeFiles/
+CTestConfig.cmake
+CTestTestfile.cmake
+CTestTestfile.cmake.dir/
+cmake_distclean.cmake
+ 
+# 忽略特定的二进制文件
+*.exe
+*.dll
+ 
+# 忽略特定的文本编辑器临时文件
+*.swp
+*.swo
+.swp
+.swo
+ 
+# 忽略特定的日志和报告文件
+*.log
+*.rpt
+ 
+# 忽略特定的配置文件（包含敏感信息）
+config.h
+config.hpp
+config.cpp
+config.json
+config.xml
+.env
+ 
+# 忽略特定的构建工具文件
+Makefile
+makefile
+Makefile.in
+Makefile.am
+Makefile.in.am
+autom4te.cache/
+config.guess
+config.sub
+install-sh
+missing
+depcomp
+compile
+ltmain.sh
+config.log
+config.status
+libtool
+stamp-h1
+ 
+# 忽略特定的版本控制文件
+.hg/
+.git/
+.svn/
+.bzr/
+_darcs/
